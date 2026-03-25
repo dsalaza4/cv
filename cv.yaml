@@ -1,0 +1,119 @@
+cv:
+  name: Daniel Salazar
+  location: Medellín, Colombia
+  email: podany270895@gmail.com
+  phone: tel:+573193143475
+  social_networks:
+    - network: LinkedIn
+      username: daniel-salazar4
+    - network: GitHub
+      username: dsalaza4
+    - network: GitLab
+      username: dsalazaratfluid
+
+  sections:
+    work experience:
+      - company: Fluid Attacks
+        position: Staff Software Engineer
+        location: Remote
+        start_date: "2022-01"
+        end_date: present
+        highlights:
+          - Played a pivotal role in crafting a sophisticated vulnerability management
+            platform embraced by clients across the American continent. With NodeJS and
+            React powering its dynamic front-end, and Python driving its robust backend,
+            the platform is used by over 100 clients across a wide range of industries.
+            Supported by DynamoDB, OpenSearch, and Redshift databases, orchestrated
+            through Kubernetes, and empowered by AWS Batch for asynchronous tasks.
+          - Designed and delivered a Terraform-driven platform-engineering framework that
+            streamlines how development teams build secure, production-ready
+            infrastructure-as-code with minimal complexity and maximum velocity.
+          - Built [docs.fluidattacks.com](https://docs.fluidattacks.com), sole engineer
+            on a cross-company documentation platform in Next.js / TypeScript,
+            consolidating fragmented internal sources into a single hub for public and
+            private docs. Accelerated team onboarding and scaled to serve hundreds of
+            internal and external users.
+          - Built [CILens](https://github.com/dsalazar/cilens), a Rust CLI tool for
+            CI/CD pipeline analytics across GitHub Actions and GitLab CI. Identified
+            workflow bottlenecks that enabled a 40% reduction in pipeline runtime for
+            my team.
+          - Built a Python testing framework using Moto that enabled reliable unit tests,
+            significantly reduced flakiness and cloud costs, improved testing speed, and
+            introduced declarative test data for maximum simplicity.
+          - Co-created and published [Makes](https://github.com/fluidattacks/makes), a
+            CI/CD framework for running Python and NodeJS applications anywhere.
+          - Presented Makes at Black Hat Arsenal 2022, a prestigious cybersecurity event.
+          - Reduced cloud expenses by 50% through the migration of all company stack
+            (GitLab CI, Kubernetes Cluster, AWS Batch) to utilize ARM64 Linux machines.
+          - Migrated all company CI/CD pipelines to Makes, which increased pipeline
+            performance by 40%.
+          - Adapted several company products to support macOS (ARM64-darwin).
+          - Designed and implemented ZTNA networks for connecting multiple organizations
+            via cloud, all written in Terraform.
+          - Talked at AWS Community events in Peru, Chile, and Colombia.
+          - "**My main responsibilities are:** empowering a team of 60+ developers by
+            optimizing pipeline feedback cycles; scaling the company's infrastructure to
+            support a 100% yearly growth ratio; testing and reviewing hot tech stack;
+            helping developers with product architecture decisions; giving talks about
+            DevSecOps to other organizations; collaborating with the compliance team to
+            achieve SOC2."
+
+      - company: Fluid Attacks
+        position: Software Engineer
+        location: Medellín, Colombia
+        start_date: "2018-10"
+        end_date: "2022-01"
+        highlights:
+          - Designed and implemented a AWS EKS Kubernetes cluster that hosts the
+            company's biggest application, supports zero-downtime deployments and
+            autoscales itself based on CPU consumption. All written in Terraform.
+          - Designed and implemented an as-code schedule system for executing
+            out-of-band processing tasks using AWS Batch.
+          - Designed and implemented the company's CI/CD system using the GitLab Runner
+            docker+machine executor on AWS infrastructure, all written in Terraform.
+          - Designed and implemented the company's IAM system as code using Terraform.
+          - Migrated all company products from AWS Route53 to Cloudflare.
+          - Migrated all company products to a single source code repository on GitLab
+            (monorepo).
+          - Migrated all company secrets (passwords, API tokens, DB credentials, etc)
+            to a secrets-as-code architecture using Mozilla SOPS and AWS KMS.
+          - "**My main responsibilities were:** empowering a team of 20+ developers by
+            optimizing pipeline feedback cycles; providing elastic infrastructure that
+            would allow developers to easily test changes; testing and reviewing hot
+            tech stack to see how it can be useful for the company."
+
+    education:
+      - institution: Universidad EAFIT
+        area: Computer Science
+        degree: BS
+        date: "2019-12"
+        location: Medellín, Colombia
+        highlights:
+          - "3.7/4.0 GPA."
+          - Represented Colombia at international Student High Performance Computing
+            Competitions.
+          - Parallel programming seminar coordinator.
+
+    skills languages and interests:
+      - label: Skills
+        details: DevOps · CI/CD · AWS · Terraform · Kubernetes · GitLab CI · Rust ·
+          Python · NodeJS · TypeScript · Shell Scripting · Docker · Git · Software
+          Architecture · GitHub Actions · Linux · Cloudflare · Non-relational/Relational
+          Databases · ZTNA · Nix
+      - label: Languages
+        details: "**English:** Full professional proficiency. **Spanish:** Native
+          proficiency."
+      - label: Interests
+        details: Video games, anime, rap music, tennis.
+
+design:
+  theme: sb2nov
+
+settings:
+  render_command:
+    output_folder: output
+    pdf_path: output/daniel-salazar.pdf
+    typst_path: output/daniel-salazar.typ
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
