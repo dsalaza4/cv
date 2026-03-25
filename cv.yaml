@@ -21,13 +21,13 @@ cv:
         start_date: "2022-01"
         end_date: present
         summary: Grew with Fluid Attacks from 30 to 200 employees (engineering 3 → 60).
-          As Staff Engineer, own architectural direction for infrastructure, Nix, and
+          As Staff Engineer, lead architectural direction for infrastructure, Nix, and
           developer tooling across the team.
         highlights:
           - Owned infrastructure and developer experience for a vulnerability management
-            platform serving 100+ clients across the Americas; responsible for EKS,
-            AWS Batch, DynamoDB, S3, Cloudflare, CI/CD pipelines, testing frameworks,
-            and local developer tooling across the full engineering team.
+            platform serving 100+ clients across the Americas, covering EKS, AWS
+            Batch, DynamoDB, S3, Cloudflare, CI/CD pipelines, and developer tooling
+            for the full engineering team.
           - Built a Terraform platform-engineering framework with shared modules used
             by 20+ applications, centralizing security controls and raising the
             security and reliability baseline across the entire company.
@@ -46,8 +46,8 @@ cv:
             migration from Makes to Nix Flakes; cut onboarding to under an hour,
             improved runtime performance by ~20%, and contributed back to the Nix
             ecosystem.
-          - Leading company-wide AI adoption; built Claude-based automation for
-            engineering workflows, exposed company knowledge via
+          - Led company-wide AI adoption; built Claude-based automation for
+            engineering workflows, published company knowledge via
             [llms.txt](https://docs.fluidattacks.com/llms.txt) for AI agents, and
             secured a ChatGPT Enterprise contract giving all 200 employees auditable
             AI access.
@@ -61,8 +61,8 @@ cv:
         start_date: "2018-10"
         end_date: "2022-01"
         highlights:
-          - Built an EKS Kubernetes cluster on AWS (Terraform) supporting 2000+
-            concurrent users, with zero-downtime deployments and horizontal autoscaling.
+          - Built an EKS cluster on AWS (Terraform) supporting 2000+ concurrent users,
+            with zero-downtime deployments and horizontal autoscaling.
           - Designed the automated vulnerability scanning engine using AWS Batch,
             running SAST, DAST, and SCA in real time across thousands of client
             repositories, the operational core of the Fluid Attacks service.
@@ -77,7 +77,7 @@ cv:
           - Migrated all DNS to Cloudflare, gaining DDoS protection, edge caching
             (+30% load speed), and auto-renewable certificates while halving DNS
             infrastructure costs.
-          - Moved all company secrets to a secrets-as-code model with Mozilla SOPS
+          - Converted all company secrets to a secrets-as-code model with Mozilla SOPS
             and AWS KMS, making secrets versioned, auditable, and subject to the same
             review process as code.
 
@@ -87,7 +87,7 @@ cv:
         end_date: "2025-09"
         highlights:
           - Co-created an open-source CI/CD framework for reproducible pipelines; 497
-            GitHub stars, presented at Black Hat Arsenal 2022, and adopted company-wide
+            GitHub stars, presented at Black Hat Arsenal 2022, adopted company-wide
             at Fluid Attacks with a 40% pipeline performance improvement. Superseded
             by Nix Flakes as the ecosystem matured.
 
@@ -104,8 +104,8 @@ cv:
         end_date: present
         highlights:
           - macOS environment fully defined as code using Nix, enabling complete
-            environment setup in minutes from scratch. The pattern became the
-            standard for onboarding all 60 engineers at Fluid Attacks.
+            environment setup in minutes on a fresh machine. This approach became
+            the standard for onboarding all 60 engineers at Fluid Attacks.
 
     talks:
       - name: DevSecOps Habits
@@ -121,18 +121,18 @@ cv:
         start_date: "2020"
         end_date: present
         highlights:
-          - Recurring talk including AWS Community events in Peru, Chile, and Colombia.
-            Explores how Google and other major tech companies use monorepos for
-            centralization, standardization, and shared culture; includes Fluid Attacks'
-            own migration experience and outcomes.
+          - Recurring talk delivered at venues including AWS Community events in Peru,
+            Chile, and Colombia. Explores how Google and other major tech companies
+            use monorepos for centralization, standardization, and shared culture;
+            includes Fluid Attacks' own migration experience and outcomes.
 
       - name: Reproducible Environments with Nix
         date: "2022"
         highlights:
-          - How Nix enables fully reproducible environments across local development,
-            Kubernetes, and CI. Covers Nix Flakes as the community standard and the
-            journey from Makes to Nix Flakes at Fluid Attacks. Presented at Black Hat
-            Arsenal 2022.
+          - Covers how Nix enables fully reproducible environments across local
+            development, Kubernetes, and CI, with Nix Flakes as the community
+            standard, including the company-wide migration from Makes to Nix Flakes
+            at Fluid Attacks. Presented at Black Hat Arsenal 2022.
 
       - name: "Cloudflare Zero Trust: Fluid Attacks Success Story"
         date: "2026-02"
@@ -155,15 +155,14 @@ cv:
     skills:
       - DevOps · CI/CD · AWS · Terraform · Kubernetes · GitLab CI · Rust · Python ·
         NodeJS · TypeScript · Shell Scripting · Docker · Git · Software Architecture ·
-        GitHub Actions · Linux · Cloudflare · Non-relational/Relational Databases ·
-        ZTNA · Nix
+        GitHub Actions · Linux · Cloudflare · SQL/NoSQL Databases · ZTNA · Nix
 
     languages:
       - bullet: "**English:** Full professional proficiency."
       - bullet: "**Spanish:** Native proficiency."
 
     interests:
-      - bullet: Video games, anime, rap music, tennis.
+      - bullet: Video games, anime, rap music.
 
 design:
   theme: sb2nov
