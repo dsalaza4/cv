@@ -170,9 +170,9 @@ design:
 
 settings:
   render_command:
-    output_folder: output
-    pdf_path: output/daniel-salazar.pdf
-    typst_path: output/daniel-salazar.typ
+    output_folder: ../output
+    pdf_path: ../output/daniel-salazar.pdf
+    typst_path: ../output/daniel-salazar.typ
     dont_generate_markdown: true
     dont_generate_html: true
     dont_generate_png: true

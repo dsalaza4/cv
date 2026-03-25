@@ -24,7 +24,7 @@
               name = "cv";
               runtimeInputs = [ pkgs.rendercv ];
               text = ''
-                rendercv render cv.yaml
+                rendercv render src/cv.yaml
               '';
             };
 
