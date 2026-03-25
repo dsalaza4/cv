@@ -1,6 +1,6 @@
 # cv
 
-My CV as code, built with [RenderCV](https://rendercv.com) and Nix.
+My CV as code, built with [RenderCV](https://github.com/rendercv/rendercv) and Nix.
 
 ## Usage
 
