@@ -59,8 +59,9 @@ cv:
           - Led company-wide AI adoption; built Claude-based automation for
             engineering workflows, published company knowledge via
             [llms.txt](https://docs.fluidattacks.com/llms.txt) for AI agents, and
-            secured a ChatGPT Enterprise contract giving all 200 employees auditable
-            AI access.
+            negotiated a ChatGPT Enterprise deal covering 60 seats with auditable
+            AI access, a Zero Data Retention API subscription, and early access to
+            edge tools including the ChatGPT security pentesting agent.
           - Built the engineering top 10 pain points report and presented it to the
             CEO and CTO; findings shaped the annual engineering roadmap and drove
             investments that raised service reliability from 95% to 99%.
@@ -73,7 +74,8 @@ cv:
         highlights:
           - Contracted to train an AI model on Nix, the package manager, and Flakes;
             drew on production experience migrating a 60-engineer company to Nix
-            Flakes.
+            Flakes, co-creating and maintaining Makes, and owning the build system
+            for all Fluid Attacks components.
 
       - company: Fluid Attacks
         position: Software Engineer
