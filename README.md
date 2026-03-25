@@ -4,7 +4,7 @@ My CV as code, built with [RenderCV](https://rendercv.com) and Nix.
 
 ## Usage
 
-Render the CV to `rendercv_output/cv.pdf`:
+Render the CV to `output/daniel-salazar.pdf`:
 
 ```bash
 nix run
@@ -33,3 +33,11 @@ cv
 ## Editing
 
 CV content lives in `cv.yaml`. Edit it and re-run to regenerate.
+
+## Skills
+
+Update Claude Code skills and lock file:
+
+```bash
+cv-update-skills
+```

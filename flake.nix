@@ -19,18 +19,31 @@
       perSystem =
         { pkgs, self', ... }:
         {
-          packages.default = pkgs.writeShellApplication {
-            name = "cv";
-            runtimeInputs = [ pkgs.rendercv ];
-            text = ''
-              rendercv render cv.yaml
-            '';
+          packages = {
+            default = pkgs.writeShellApplication {
+              name = "cv";
+              runtimeInputs = [ pkgs.rendercv ];
+              text = ''
+                rendercv render cv.yaml
+              '';
+            };
+
+            cv-update-skills = pkgs.writeShellApplication {
+              name = "cv-update-skills";
+              runtimeInputs = [ pkgs.nodejs_24 ];
+              text = ''
+                npx skills update --yes
+                npx skills experimental_sync
+              '';
+            };
           };
 
           devShells.default = pkgs.mkShell {
             packages = [
+              pkgs.nodejs_24
               pkgs.rendercv
               self'.packages.default
+              self'.packages.cv-update-skills
             ];
           };
         };
