@@ -24,7 +24,10 @@
               name = "cv";
               runtimeInputs = [ pkgs.rendercv ];
               text = ''
-                rendercv render src/cv.yaml
+                rendercv render ${./src}/cv.yaml \
+                  --output-folder "$PWD/output" \
+                  --pdf-path "$PWD/output/daniel-salazar.pdf" \
+                  --typst-path "$PWD/output/daniel-salazar.typ"
               '';
             };
 
