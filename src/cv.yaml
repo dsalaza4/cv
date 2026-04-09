@@ -35,6 +35,8 @@ cv:
             SAST, DAST, SCA, and repository cloning pipelines now run as observable,
             auditable workflows, reducing MTTR to under 5 minutes across the core
             Fluid Attacks service.
+          - Presented at Black Hat Arsenal 2022 and invited speaker at Cloudflare
+            Immerse Bogotá 2026.
           - Owned infrastructure and developer experience for a vulnerability management
             platform serving 100+ clients across the Americas, covering EKS, AWS
             Batch, DynamoDB, S3, Cloudflare, CI/CD pipelines, and developer tooling
