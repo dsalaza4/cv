@@ -26,31 +26,26 @@ cv:
           shape technology strategy, and act as the primary technical reference
           across the engineering team.
         highlights:
-          - Owned infrastructure and developer experience for a vulnerability management
-            platform serving 100+ clients across the Americas, covering EKS, AWS
-            Batch, DynamoDB, S3, Cloudflare, CI/CD pipelines, and developer tooling
-            for the full engineering team.
+          - Built the engineering top 10 pain points report and presented it to the
+            CEO and CTO; findings shaped the annual engineering roadmap and drove
+            investments that raised service reliability from 95% to 99%.
+          - Cut cloud compute costs by 50% by migrating the full company stack (GitLab
+            CI, Kubernetes, AWS Batch) to ARM64 Linux.
           - Championed migrating the entire service value chain to AWS Step Functions;
             SAST, DAST, SCA, and repository cloning pipelines now run as observable,
             auditable workflows, reducing MTTR to under 5 minutes across the core
             Fluid Attacks service.
+          - Owned infrastructure and developer experience for a vulnerability management
+            platform serving 100+ clients across the Americas, covering EKS, AWS
+            Batch, DynamoDB, S3, Cloudflare, CI/CD pipelines, and developer tooling
+            for the full engineering team.
+          - Architected ZTNA networks in Terraform connecting all 100+ Fluid Attacks
+            clients; replaced ad hoc VPN setups with Cloudflare Warp, giving
+            pentesters zero-trust access to client assets with full audit trails.
           - Championed and own the Terraform platform-engineering framework used by
             20+ applications; teams across the company contribute to the shared
             library rather than building in isolation, centralizing security controls
             and raising the reliability baseline company-wide.
-          - Championed, built, and own
-            [docs.fluidattacks.com](https://docs.fluidattacks.com), a
-            Next.js/TypeScript documentation hub serving 2000+ users across
-            internal teams and clients; drove its roadmap based on direct
-            engineering and client feedback.
-          - Championed and built a Python/Moto testing framework with declarative
-            test data; cut pipeline runtime by 50%, enabled full local
-            reproducibility, and raised deployment frequency by ~20%.
-          - Cut cloud compute costs by 50% by migrating the full company stack (GitLab
-            CI, Kubernetes, AWS Batch) to ARM64 Linux.
-          - Architected ZTNA networks in Terraform connecting all 100+ Fluid Attacks
-            clients; replaced ad hoc VPN setups with Cloudflare Warp, giving
-            pentesters zero-trust access to client assets with full audit trails.
           - Championed Nix-based developer environments across the company and led
             the migration from Makes to Nix Flakes; cut onboarding to under an hour,
             improved runtime performance by ~20%, reduced machine scale-up from
@@ -62,9 +57,14 @@ cv:
             negotiated a ChatGPT Enterprise deal covering 60 seats with auditable
             AI access, a Zero Data Retention API subscription, and early access to
             edge tools including the ChatGPT security pentesting agent.
-          - Built the engineering top 10 pain points report and presented it to the
-            CEO and CTO; findings shaped the annual engineering roadmap and drove
-            investments that raised service reliability from 95% to 99%.
+          - Championed and built a Python/Moto testing framework with declarative
+            test data; cut pipeline runtime by 50%, enabled full local
+            reproducibility, and raised deployment frequency by ~20%.
+          - Championed, built, and own
+            [docs.fluidattacks.com](https://docs.fluidattacks.com), a
+            Next.js/TypeScript documentation hub serving 2000+ users across
+            internal teams and clients; drove its roadmap based on direct
+            engineering and client feedback.
 
       - company: Confidential Client
         position: Freelance Nix Consultant
